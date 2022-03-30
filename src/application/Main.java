@@ -194,7 +194,7 @@ public class Main extends Application {
 
 			github.setOnAction(e -> {
 				try {
-					Desktop.getDesktop().browse(new URI("http://github.com"));
+					Desktop.getDesktop().browse(new URI("https://github.com/bcho892/LHSPAMMER"));
 				} catch (IOException e1) {
 					System.err.println("IOexception");
 				} catch (URISyntaxException e1) {
